@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Usuario</title>
+</head>
+<body>
+    <h2>Modificar Usuario</h2>
+    
+    <form action="php/modificar_usuario.php" method="POST">
+        <label for="id">ID de Usuario:</label>
+        <input type="number" name="id" required>
+
+        <label for="nuevo_nombre">Nuevo Nombre:</label>
+        <input type="text" name="nuevo_nombre" required>
+
+        <button type="submit">Modificar</button>
+    </form>
+</body>
+</html>
